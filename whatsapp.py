@@ -18,11 +18,7 @@ with open("contact.txt") as f:
 			name = (line.rstrip('\n'))
 			var = name.split("/")
 			text = """Hello {},
-                        Selamat sore, kami informasikan hosting Anda {} saat ini dalam status "suspended" karena belum melakukan perpanjangan. Hal ini menyebabkan website Anda tidak bisa diakses sehingga berpotensi menurunnya pengunjung ataupun calon pembeli Anda. Berikut detail layanan Anda yang sudah saatnya diperpanjang
-                        No invoice : NH{}
-                        Akun hosting : NH{}
-                        Jumlah tagihan : {}
-                        Silakan balas pesan ini untuk informasi lebih lanjut.""".format(var[1], var[3], var[2], var[3], var[4])
+                        var1{}. var2{}, var3{}""".format(var[1], var[3], var[2], var[3], var[4])
 			input_box_search.send_keys(var[0])
 			time.sleep(10)
 			
