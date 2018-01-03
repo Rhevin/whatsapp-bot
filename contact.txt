@@ -1,0 +1,4 @@
+#format contact
+#phone_number/name/var1/var2/var3
+#example
+62812345678/rhevin/date/name/year
